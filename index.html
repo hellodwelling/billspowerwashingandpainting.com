@@ -611,116 +611,201 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
             <h2  style= "color:#ffffff" class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Our Best Work</h2>
             <h2  style= "color:#5373c6" class="my-3 mb-10 text-xl font-medium  text-gray-400  text-center">See why our customers love us</h2>
-            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/BE95H66SE2K7AYGPWAKCS3DDSFQEHM426G4VGYYP.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/RYHNYV56WWJ0MX8OEK4KGXJXDM6O1P7IJP7KL5HW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/AZOZPZ4N1CST8DFEHDFL9MLH0W66XQY0WZDCGACI.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/ZHOR5WY55E1YV99ZLZ0VDGBKHVSYQFHWU5LAVCHE.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/0I1H59B0RTT9ZAWFOV5JPLFNPFJSE8CLG2IY98OK.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/CN8SESWVN9BSKB4CZKC8OM4EXI873CEQSPC43K3L.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/YFUV36VNO49R6L5J2WCCNE1JP4S4GY3R7FP0MQEL.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/XHBVYYJ2R29N25Y63IBISHPSZWX8QRP4LIHD092A.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/SP7DQ3S8XU3AORDRKYB1ORYBR6L17CU8EAXAF5A7.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/AK6NN90C2CAPU3N10GL8OJ0M4EU6CIA32V1VYGGU.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/DOLR1WTBKXTFKTGGWUKE2KHEV0LTXV1B6A8TF30Q.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/PEF3R3T32FOJ167HNQX74E3EBZ3F907DLIPPJLZP.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/JTXCYEX6LY5FZS1PDC8JCHYMU7ZRTCBJEZVPLKKH.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/8OUGT6OA65DMEMA8E61AXD4WLRF0Q82BW8U8Z72R.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3EIUAB7JRUSWFRSBYQD2TJ8TPWV5CJG01IKN83N6.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/SRYIEY6OEXAF5VTMAP78MK9CH6ERRWDNPWEY6YKV.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/2X5KLY5VSSE7122EG4Z2STWBC0N5OZ4FAEMHEIXW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/UDPP6UD5DN4T8GYYDFFKT451ONQKPA7HPCZIZB6E.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3YS341W2AV2O1VTNU7QQVDYV2BG5IREDJ8XUD6FK.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/8CR4FRPQRIL2AFXNY2G2A3ZGB9IDSZ3ZOMLOQRKO.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3NIBIPMMTTE2A20TTLSYQ9O9W2U4JCTMIK4XIZM7.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/Q6PR7H98V60JTN1JBNBOZ9X2JCO920FMDXSZTNQO.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
+            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/9R4F5KS3R82KJXXPCTSPR5WFXJK51ZBAGPQLQGXP.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/X2WIS1MOPH9ZNA8OG3M84YOJYEIONDLOSV5UJSIR.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/X913F21461XWFN5ZHO4WYYOZLUMN7J9QDJ0XAX46.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3K3GYZKCL6WTFJXG6TWIJ4KHB6XT7EUJQA9DHRF4.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/RYR0KNUHMI6MFBIV77JULDHKZW8QYYKIVTWFMJRL.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/UPK5IYNHEXS4BK7VZJ2IISH98VI0APRFS7IB7QEW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/MREX9I1DUN7TAWM66UQ1QIL196VW2WLV34E2HCWY.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/DJYNDMOB52AG95GMH4JE007I4TSAHD7D0BELI489.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/F1BDUHK38C1QZEP6MS7SXP4M4BR6XU8FAS0X5RMW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/TFC1P8HOWDYZPKUGXCF41VXVHM8U41K4MNLXWBP2.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/VJTJQ023M15KH2JN7J06Z9S75P3M9BRQLHPFBLH5.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/DG2LKTGOIK8P6LGXIIJH568PFYIQ27QE9ZGV9CBL.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/XB2MNBPQNC4BA8CA04WSL2K8XQYYRLBAEHUGT8S3.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/SI83QB8Z74HAXHS2NYBQ4MD7V80T5HSEWRIGLID2.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/9T65NT06154AS5DWIVIW65UGAYE4FFNPFTWYWKX8.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/ZTUL4LIETCUTEOGWBE4L15UWOJT9PDB2EGWPN5VJ.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/H62CNWWJ99U46VQE1GXEPBW0WF9663E47OJAMLDZ.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/BE95H66SE2K7AYGPWAKCS3DDSFQEHM426G4VGYYP.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/RYHNYV56WWJ0MX8OEK4KGXJXDM6O1P7IJP7KL5HW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/AZOZPZ4N1CST8DFEHDFL9MLH0W66XQY0WZDCGACI.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/ZHOR5WY55E1YV99ZLZ0VDGBKHVSYQFHWU5LAVCHE.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/0I1H59B0RTT9ZAWFOV5JPLFNPFJSE8CLG2IY98OK.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/CN8SESWVN9BSKB4CZKC8OM4EXI873CEQSPC43K3L.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/YFUV36VNO49R6L5J2WCCNE1JP4S4GY3R7FP0MQEL.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/XHBVYYJ2R29N25Y63IBISHPSZWX8QRP4LIHD092A.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/SP7DQ3S8XU3AORDRKYB1ORYBR6L17CU8EAXAF5A7.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/AK6NN90C2CAPU3N10GL8OJ0M4EU6CIA32V1VYGGU.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/DOLR1WTBKXTFKTGGWUKE2KHEV0LTXV1B6A8TF30Q.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/PEF3R3T32FOJ167HNQX74E3EBZ3F907DLIPPJLZP.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/JTXCYEX6LY5FZS1PDC8JCHYMU7ZRTCBJEZVPLKKH.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/8OUGT6OA65DMEMA8E61AXD4WLRF0Q82BW8U8Z72R.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3EIUAB7JRUSWFRSBYQD2TJ8TPWV5CJG01IKN83N6.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/SRYIEY6OEXAF5VTMAP78MK9CH6ERRWDNPWEY6YKV.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/2X5KLY5VSSE7122EG4Z2STWBC0N5OZ4FAEMHEIXW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/UDPP6UD5DN4T8GYYDFFKT451ONQKPA7HPCZIZB6E.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3YS341W2AV2O1VTNU7QQVDYV2BG5IREDJ8XUD6FK.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/8CR4FRPQRIL2AFXNY2G2A3ZGB9IDSZ3ZOMLOQRKO.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/3NIBIPMMTTE2A20TTLSYQ9O9W2U4JCTMIK4XIZM7.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/Q6PR7H98V60JTN1JBNBOZ9X2JCO920FMDXSZTNQO.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/BE95H66SE2K7AYGPWAKCS3DDSFQEHM426G4VGYYP.jpeg"  alt = "Photo number 1 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/9R4F5KS3R82KJXXPCTSPR5WFXJK51ZBAGPQLQGXP.jpeg"  alt = "Photo number 1 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/RYHNYV56WWJ0MX8OEK4KGXJXDM6O1P7IJP7KL5HW.jpeg"  alt = "Photo number 2 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/X2WIS1MOPH9ZNA8OG3M84YOJYEIONDLOSV5UJSIR.jpeg"  alt = "Photo number 2 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/AZOZPZ4N1CST8DFEHDFL9MLH0W66XQY0WZDCGACI.jpeg"  alt = "Photo number 3 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/X913F21461XWFN5ZHO4WYYOZLUMN7J9QDJ0XAX46.jpeg"  alt = "Photo number 3 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZHOR5WY55E1YV99ZLZ0VDGBKHVSYQFHWU5LAVCHE.jpeg"  alt = "Photo number 4 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3K3GYZKCL6WTFJXG6TWIJ4KHB6XT7EUJQA9DHRF4.jpeg"  alt = "Photo number 4 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/0I1H59B0RTT9ZAWFOV5JPLFNPFJSE8CLG2IY98OK.jpeg"  alt = "Photo number 5 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/RYR0KNUHMI6MFBIV77JULDHKZW8QYYKIVTWFMJRL.jpeg"  alt = "Photo number 5 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/CN8SESWVN9BSKB4CZKC8OM4EXI873CEQSPC43K3L.jpeg"  alt = "Photo number 6 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/UPK5IYNHEXS4BK7VZJ2IISH98VI0APRFS7IB7QEW.jpeg"  alt = "Photo number 6 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/YFUV36VNO49R6L5J2WCCNE1JP4S4GY3R7FP0MQEL.jpeg"  alt = "Photo number 7 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/MREX9I1DUN7TAWM66UQ1QIL196VW2WLV34E2HCWY.jpeg"  alt = "Photo number 7 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/XHBVYYJ2R29N25Y63IBISHPSZWX8QRP4LIHD092A.jpeg"  alt = "Photo number 8 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DJYNDMOB52AG95GMH4JE007I4TSAHD7D0BELI489.jpeg"  alt = "Photo number 8 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/SP7DQ3S8XU3AORDRKYB1ORYBR6L17CU8EAXAF5A7.jpeg"  alt = "Photo number 9 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/F1BDUHK38C1QZEP6MS7SXP4M4BR6XU8FAS0X5RMW.jpeg"  alt = "Photo number 9 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/AK6NN90C2CAPU3N10GL8OJ0M4EU6CIA32V1VYGGU.jpeg"  alt = "Photo number 10 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/TFC1P8HOWDYZPKUGXCF41VXVHM8U41K4MNLXWBP2.jpeg"  alt = "Photo number 10 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DOLR1WTBKXTFKTGGWUKE2KHEV0LTXV1B6A8TF30Q.jpeg"  alt = "Photo number 11 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/VJTJQ023M15KH2JN7J06Z9S75P3M9BRQLHPFBLH5.jpeg"  alt = "Photo number 11 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/PEF3R3T32FOJ167HNQX74E3EBZ3F907DLIPPJLZP.jpeg"  alt = "Photo number 12 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DG2LKTGOIK8P6LGXIIJH568PFYIQ27QE9ZGV9CBL.jpeg"  alt = "Photo number 12 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/JTXCYEX6LY5FZS1PDC8JCHYMU7ZRTCBJEZVPLKKH.jpeg"  alt = "Photo number 13 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/XB2MNBPQNC4BA8CA04WSL2K8XQYYRLBAEHUGT8S3.jpeg"  alt = "Photo number 13 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8OUGT6OA65DMEMA8E61AXD4WLRF0Q82BW8U8Z72R.jpeg"  alt = "Photo number 14 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/SI83QB8Z74HAXHS2NYBQ4MD7V80T5HSEWRIGLID2.jpeg"  alt = "Photo number 14 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3EIUAB7JRUSWFRSBYQD2TJ8TPWV5CJG01IKN83N6.jpeg"  alt = "Photo number 15 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/9T65NT06154AS5DWIVIW65UGAYE4FFNPFTWYWKX8.jpeg"  alt = "Photo number 15 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 15; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/SRYIEY6OEXAF5VTMAP78MK9CH6ERRWDNPWEY6YKV.jpeg"  alt = "Photo number 16 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 15; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZTUL4LIETCUTEOGWBE4L15UWOJT9PDB2EGWPN5VJ.jpeg"  alt = "Photo number 16 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 16; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2X5KLY5VSSE7122EG4Z2STWBC0N5OZ4FAEMHEIXW.jpeg"  alt = "Photo number 17 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 16; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/H62CNWWJ99U46VQE1GXEPBW0WF9663E47OJAMLDZ.jpeg"  alt = "Photo number 17 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 17; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/UDPP6UD5DN4T8GYYDFFKT451ONQKPA7HPCZIZB6E.jpeg"  alt = "Photo number 18 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 17; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/BE95H66SE2K7AYGPWAKCS3DDSFQEHM426G4VGYYP.jpeg"  alt = "Photo number 18 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 18; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3YS341W2AV2O1VTNU7QQVDYV2BG5IREDJ8XUD6FK.jpeg"  alt = "Photo number 19 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 18; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/RYHNYV56WWJ0MX8OEK4KGXJXDM6O1P7IJP7KL5HW.jpeg"  alt = "Photo number 19 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 19; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8CR4FRPQRIL2AFXNY2G2A3ZGB9IDSZ3ZOMLOQRKO.jpeg"  alt = "Photo number 20 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 19; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/AZOZPZ4N1CST8DFEHDFL9MLH0W66XQY0WZDCGACI.jpeg"  alt = "Photo number 20 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 20; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3NIBIPMMTTE2A20TTLSYQ9O9W2U4JCTMIK4XIZM7.jpeg"  alt = "Photo number 21 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 20; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ZHOR5WY55E1YV99ZLZ0VDGBKHVSYQFHWU5LAVCHE.jpeg"  alt = "Photo number 21 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 21; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Q6PR7H98V60JTN1JBNBOZ9X2JCO920FMDXSZTNQO.jpeg"  alt = "Photo number 22 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 21; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/0I1H59B0RTT9ZAWFOV5JPLFNPFJSE8CLG2IY98OK.jpeg"  alt = "Photo number 22 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 22; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/CN8SESWVN9BSKB4CZKC8OM4EXI873CEQSPC43K3L.jpeg"  alt = "Photo number 23 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 23; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/YFUV36VNO49R6L5J2WCCNE1JP4S4GY3R7FP0MQEL.jpeg"  alt = "Photo number 24 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 24; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/XHBVYYJ2R29N25Y63IBISHPSZWX8QRP4LIHD092A.jpeg"  alt = "Photo number 25 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 25; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/SP7DQ3S8XU3AORDRKYB1ORYBR6L17CU8EAXAF5A7.jpeg"  alt = "Photo number 26 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 26; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/AK6NN90C2CAPU3N10GL8OJ0M4EU6CIA32V1VYGGU.jpeg"  alt = "Photo number 27 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 27; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DOLR1WTBKXTFKTGGWUKE2KHEV0LTXV1B6A8TF30Q.jpeg"  alt = "Photo number 28 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 28; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/PEF3R3T32FOJ167HNQX74E3EBZ3F907DLIPPJLZP.jpeg"  alt = "Photo number 29 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 29; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/JTXCYEX6LY5FZS1PDC8JCHYMU7ZRTCBJEZVPLKKH.jpeg"  alt = "Photo number 30 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 30; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8OUGT6OA65DMEMA8E61AXD4WLRF0Q82BW8U8Z72R.jpeg"  alt = "Photo number 31 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 31; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3EIUAB7JRUSWFRSBYQD2TJ8TPWV5CJG01IKN83N6.jpeg"  alt = "Photo number 32 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 32; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/SRYIEY6OEXAF5VTMAP78MK9CH6ERRWDNPWEY6YKV.jpeg"  alt = "Photo number 33 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 33; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2X5KLY5VSSE7122EG4Z2STWBC0N5OZ4FAEMHEIXW.jpeg"  alt = "Photo number 34 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 34; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/UDPP6UD5DN4T8GYYDFFKT451ONQKPA7HPCZIZB6E.jpeg"  alt = "Photo number 35 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 35; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3YS341W2AV2O1VTNU7QQVDYV2BG5IREDJ8XUD6FK.jpeg"  alt = "Photo number 36 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 36; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/8CR4FRPQRIL2AFXNY2G2A3ZGB9IDSZ3ZOMLOQRKO.jpeg"  alt = "Photo number 37 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 37; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/3NIBIPMMTTE2A20TTLSYQ9O9W2U4JCTMIK4XIZM7.jpeg"  alt = "Photo number 38 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 38; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Q6PR7H98V60JTN1JBNBOZ9X2JCO920FMDXSZTNQO.jpeg"  alt = "Photo number 39 of Bill&#x27;s Power Washing and Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                  
                                     
